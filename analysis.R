@@ -21,7 +21,7 @@ mdp %>%
     geom_hline(aes(yintercept=max_gdp), linetype = "dashed")+
     scale_color_manual(values=c("#e41a1c","#377eb8", "#4daf4a", "#3d405b", "#984ea3", "#ff7f00"))+
     scale_x_date(date_breaks = "5 years", date_labels = "%Y")+
-    labs(title="Historical GDP (PPP) Estimates in 2018 US Dollars",
+    labs(title="Historical GDP (PPP) Estimates in 2011 US Dollars",
          subtitle = "The dashed line represents the 1991 level of GDP",
          caption="Maddison Project Database, version 2020. Bolt, Jutta and Jan Luiten van Zanden (2020),\n'Maddison style estimates of the evolution of the world economy. A new 2020 update'")+
     theme_bw()+
